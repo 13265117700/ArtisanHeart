@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.page-background{
+  position: absolute;
+}
+.page-header{
+  width: 1000px;
+  height: 500px;
+  margin: 20px auto 0;
+}
+.header-banner{
+  text-align: center;
+  padding-top: 90px;
+}

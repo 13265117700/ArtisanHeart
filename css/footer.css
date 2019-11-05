@@ -1,0 +1,18 @@
+.page-footer{
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-description{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: monospace;
+}
+.footer-info{
+  font-size:14px;
+  line-height:26px;
+  font-family:monospace;
+}

@@ -1,0 +1,422 @@
+.page-container{
+  position: absolute;
+  width: 100%;
+}
+
+.page-mainer{
+  width: 1000px;
+  margin: 0 auto;
+  border: 6px solid #E2E2E2;
+  background: #FFFFFF;
+  position: relative;
+}
+.mainer-border-top::after{
+  content: '';
+  background: url(./../image/index-mainer-border.png) no-repeat;
+  width: 1074px;
+  height: 19px;
+  position: absolute;
+  top: -20px;
+  left: -36px;
+}
+.mainer-border-bottom::after{
+  content: '';
+  background: url(./../image/index-mainer-border.png) no-repeat;
+  width: 1074px;
+  height: 19px;
+  position: absolute;
+  bottom: -20px;
+  left: -36px;
+}
+
+
+/* .activity-section */
+.activity-section{
+  position: relative;
+  height: 285px;
+  text-align: center;
+}
+.activity-img{
+  position: absolute;
+  top: 28px;
+  left: 26px;
+}
+.activity-title{
+  font-size:30px;
+  line-height:35px;
+  padding-top: 95px;
+}
+.activity-text{
+  display: flex;
+  flex-direction: column;
+  padding-top:30px;
+  line-height:26px;
+  font-weight:bold;
+}
+
+
+/* .course-section */
+.course-section{
+  background: #f7f7f7;
+  position: relative;
+}
+.course-border-top::after{
+  content: '';
+  background: url(./../image/index_course_border.png);
+  width: 1000px;
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.course-describe{
+  display: flex;
+  align-items: center;
+}
+.describe-img-left{
+  width: 60px;
+  height: 174px;
+  padding: 24px 0 40px 20px;
+}
+.describe-text{
+  width: 512px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: -webkit-pictograph;
+  padding: 0 65px 0 16px;
+}
+.describe-img-right{
+  width: 255.4px;
+  height: 216.5px;
+  padding-top: 27px;
+  cursor: pointer;
+}
+
+.container{
+  position: relative;
+  margin-top: 39px;
+}
+.container .section-img{
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.container .section-subtitle{
+  padding-left: 98px;
+  padding-top: 5px;
+  font-size:22px;
+}
+.container .section-description{
+  padding-left: 98px;
+  padding-top: 5px;
+  font-size:16px;
+}
+
+.container .section-list{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.container .section-item{
+  text-align: center;
+  width: 290px;
+  height: 211px;
+  border: 1px solid #E6E6E6;
+  position: relative;
+  cursor: pointer;
+}
+.container .section-item::after{
+  content: '';
+  background: url(./../image/index-.container\ .section-item-border-left.png) no-repeat center;
+  width: 27px;
+  height: 19px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+.container .section-item::before{
+  content: '';
+  background: url(./../image/index-.container\ .section-item-border-right.png) no-repeat center;
+  width: 27px;
+  height: 19px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  transform: rotate(-90deg);
+}
+.course-originality .container .section-item:hover::after{
+  content: '';
+  background: url(./../image/index-course-originality-item-hove.jpg) no-repeat center;
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.container .section-item .section-item-img{
+  padding-top: 13px;
+}
+.container .section-item  .section-item-info{
+  font-size: 18px;
+  padding: 21px 0 10px 0;
+  font-family: monospace;
+  font-weight: bold;
+}
+.container .section-item .section-item-description{
+  width: 263px;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+
+
+/* .plum-section */
+.course-liyun .container .section-item:hover::after{
+  content: '';
+  background: url(./../image/index-course-liyun-item-hove.jpg) no-repeat center;
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+/* .combat-section */
+.combat-section{
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 75px;
+}
+.combat-section::after{
+  content: '';
+  background: url(./../image/index-combat-cborder.png) no-repeat center;
+  width: 1000px;
+  height: 20px;
+  position: absolute;
+  top: 35px;
+  left: 0px;
+}
+.combat-section::before{
+  content: '更多的获奖信息和礼品，客服将联系布道师本人发放';
+  width: 182px;
+  height: 40px;
+  font-size:14px;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  color: #666666;
+  text-align: right;
+  cursor: pointer;
+}
+.combat-describe{
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+}
+.combat-border-bottom::after{
+  content: '';
+  background: url(./../image/index-combat-border-bottom.png);
+  width: 1000px;
+  height: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+/* .remarks-section */
+.remarks-section{
+  position: relative;
+}
+.remarks-section::after{
+  content: '';
+  background: url(./../image/index-remarks-section-background.png) no-repeat center;
+  width: 495px;
+  height: 247px;
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+}
+.remarks-img{
+  position: absolute;
+  top: 19px;
+  left: 26px;
+}
+.remarks-activity{
+  padding-top: 37px;
+}
+.remarks-activity-title{
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 15px;
+}
+.remarks-activity-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 36px;
+}
+.remarks-activity-content{
+  width: 350px;
+  padding-right: 37px;
+}
+.remarks-activity-blessing{
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.remarks-activity-info{
+  padding-top: 22px;
+  font-size: 14px;
+}
+.remarks-activity-time{
+  line-height:26px;
+}
+.remarks-activity-date{
+  display: flex;
+}
+.remarks-activity-date-subtitle{
+  width: 120px;
+}
+.remarks-activity-date-item{
+  padding-bottom: 10px;
+}
+.remarks-activity-gift{
+  position: relative;
+}
+.remarks-activity-gift-img{
+  cursor: pointer;
+}
+.remarks-activity-gift::after{
+  content: '恭喜xiaobao032获得 U型枕';
+  position: absolute;
+  font-size: 16px;
+  line-height: 26px;
+  width: 203px;
+  height: 26px;
+  bottom: 25px;
+  left: 15px;
+  cursor: pointer;
+}
+
+
+
+/* .remarks-messageborad */
+.remarks-messageborad{
+  padding-top: 26px;
+}
+.messageborad-editor{
+  width: 800px;
+  margin: 0 auto;
+  height: 86px;
+  border: 1px solid #DBDBDB;
+  position: relative;
+}
+.messageborad-editor::after{
+  content: '';
+  background: url(./../image/index-.container\ .section-item-border-left.png) no-repeat center;
+  width: 27px;
+  height: 19px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+.messageborad-editor::before{
+  content: '';
+  background: url(./../image/index-.container\ .section-item-border-right.png) no-repeat center;
+  width: 27px;
+  height: 19px;
+  position: absolute;
+  bottom: 0;
+  right: 147px;
+}
+.messageborad-editor .input{
+  width: 640px;
+  height: 74px;
+  font-size: 16px;
+  outline: none;
+  padding: 10px 0 0 10px;
+}
+.input::placeholder{
+  color: #000000;
+  font-size: 16px;
+}
+.messageborad-editor-button{
+  position: absolute;
+  width:150px;
+  height:86px;
+  right: 0;
+  top: 0;
+  background:linear-gradient(0deg,rgba(235,235,235,1),rgba(250,250,250,1));
+  border:1px solid #DBDBDB;
+  cursor: pointer;
+  outline: none;
+}
+.messageborad-editor-button p{
+  width: 70px;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 auto;
+  color: #666666;
+}
+
+
+/* .messageborad-list */
+.messageborad-list{
+  height: 500px;
+  width: 900px;
+  margin: 50px auto 0;
+  position: relative;
+}
+
+.messageborad-item{
+  width: 320px;
+  height: 190px;
+  background: #F0F5FF;
+  border:1px solid rgba(213, 214, 234, 0.9);
+  box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+}
+.messageborad-item-name{
+  font-size: 16px;
+  line-height: 26px;
+  width: 283px;
+  margin: 10px auto;
+}
+.messageborad-item-text{
+  font-size: 16px;
+  line-height: 26px;
+  width: 283px;
+  margin: 0 auto;
+}
+.messageborad-item-remove{
+  position: absolute;
+  top: -27px;
+  right: 0;
+  display: none;
+}
+.messageborad-item:hover .messageborad-item-remove{
+  display: block;
+  cursor: pointer;
+}
+
+.messageborad-item::after{
+  content: '';
+  background: url(./../image/index-message_bg_left.png) no-repeat center;
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  top: -21px;
+  left: -21px;
+}
+.messageborad-item::before{
+  content: '';
+  background: url(./../image/index-message_bg_right.png) no-repeat center;
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  top: -21px;
+  right: -21px;
+}
